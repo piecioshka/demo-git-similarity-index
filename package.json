@@ -1,0 +1,14 @@
+{
+  "private": true,
+  "name": "demo-git-similarity-index",
+  "version": "1.0.0",
+  "description": "",
+  "license": "ISC",
+  "scripts": {
+    "start": "node index.js",
+    "test": "git-similarity-index example.txt example.md"
+  },
+  "devDependencies": {
+    "git-similarity-index": "^1.0.0"
+  }
+}

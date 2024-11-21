@@ -2,13 +2,14 @@
   "private": true,
   "name": "demo-git-similarity-index",
   "version": "1.0.0",
-  "description": "",
-  "license": "ISC",
+  "description": "🚁 This repository is an example of how to use the `git-similarity-index` command.",
+  "license": "MIT",
   "scripts": {
     "start": "node index.js",
     "test": "git-similarity-index example.txt example.md"
   },
   "devDependencies": {
-    "git-similarity-index": "^1.0.0"
+    "@types/node": "^22.9.1",
+    "git-similarity-index": "^1.0.1"
   }
 }

@@ -6,10 +6,10 @@
   "license": "MIT",
   "scripts": {
     "start": "node index.js",
-    "test": "git-similarity-index example.txt example.md"
+    "test": "git-similarity-index mocks/example.txt mocks/example.md"
   },
   "devDependencies": {
-    "@types/node": "^22.9.1",
-    "git-similarity-index": "^1.0.1"
+    "@types/node": "^22.9.3",
+    "git-similarity-index": "^1.2.1"
   }
 }

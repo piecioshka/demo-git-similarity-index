@@ -33,7 +33,7 @@ const {
 (async function () {
   const similarityIndex = await getSimilarityIndexForFiles(
     'mocks/file1.txt',
-    'mocks/file2.md',
+    'mocks/file2.txt',
   );
   console.log('getSimilarityIndexForFiles', similarityIndex); // 63.64
 })();
